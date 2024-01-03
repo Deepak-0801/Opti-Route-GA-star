@@ -59,4 +59,14 @@ Code can be run using Colaboratory Research Lab, Google
 
 ![A* Mutation (High Granularity)](https://github.com/Deepak-0801/Opti-Route-GA-star/assets/84059340/359212e9-4ac2-4cb9-8a6c-52dddd731ec5)
 
+## Contributors
+
+**Preethi Raghuraman**
+- *Student, Computer Science Engineering, SRM IST*
+
+**Deepak Kumar S**
+- *Student, Computer Science Engineering, SRM IST*
+
+**Dr. Paavai Anand**
+- *Asst. Professor, Computer Science Engineering, SRM IST*
 
