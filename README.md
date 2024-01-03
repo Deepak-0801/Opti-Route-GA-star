@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project explores different approaches to optimize the Traveling Salesman Problem (TSP) using a variety of algorithms. The goal is to compare their performance based on key metrics.
+This project explores different approaches to optimize the Traveling Salesman Problem (TSP) using a variety of algorithms. The goal is to compare their performance based on key metrics. 10 cities with static values have been used in this code to compare metrics over multiple approaches.
 
 ## Algorithms Used
 
@@ -28,15 +28,35 @@ Code can be run using Colaboratory Research Lab, Google
 ### Performance of the Fitness over Generations
 
 #### Genetic Algorithm
+- Convergence Present [Clear Indication of Evolution]
+- Exploration valued more than Exploitation
+- Best solution found in all iterations
+- 1 second
+
 ![Genetic Algorithm](https://github.com/Deepak-0801/Opti-Route-GA-star/assets/84059340/e1105cdd-3587-4e09-8971-db80ad14c833)
 
 #### A* Swap Optimization (Low Granularity)
+- Erratic Behavior with no convergence
+- Exploration is highly valued
+- Best solution not found at all times
+- 8 seconds
+
 ![A* Swap Optimization (Low Granularity)](https://github.com/Deepak-0801/Opti-Route-GA-star/assets/84059340/dc89c1de-5063-4a96-98b3-4965c849c2b9)
 
 #### A* Mutation (Low Granularity)
+- Premature Convergence Present
+- Exploitation over Exploration
+- Best solution found in all instances
+- <1 second
+
 ![A* Mutation (Low Granularity)](https://github.com/Deepak-0801/Opti-Route-GA-star/assets/84059340/04864f5a-91f9-4b58-82b5-155bcbc5f397)
 
 #### A* Mutation (High Granularity)
+- Extreme Premature Convergence
+- Exploitation valued highly
+- Best solution found in all iterations
+- 25 Seconds
+
 ![A* Mutation (High Granularity)](https://github.com/Deepak-0801/Opti-Route-GA-star/assets/84059340/359212e9-4ac2-4cb9-8a6c-52dddd731ec5)
 
 
