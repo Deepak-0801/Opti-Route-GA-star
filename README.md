@@ -21,7 +21,7 @@ This project explores different approaches to optimize the Traveling Salesman Pr
 
 ## How to Run
 
-Include instructions on how to run the code, specifying any dependencies or requirements.
+Code can be run using Colaboratory Research Lab, Google
 
 ## Results and Analysis
 
